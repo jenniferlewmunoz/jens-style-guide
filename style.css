@@ -1,0 +1,152 @@
+body {
+    text-align: center;
+}
+
+/* ----- Nav styling ----- */
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 10px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    color: black;
+    text-decoration: none;
+    background-color: #70A0AF;
+    border-radius: 10px;
+}
+
+nav a:active {
+    color: white;
+    background-color: #706993;
+}
+
+
+/* ----- Colors div styling ----- */
+#colors-div {
+    border: 2px solid #000;
+    padding: 10px;
+    margin: 50px;
+}
+
+.color {
+    width: 140px;
+    height: 50px;
+    display: inline-block;
+    border: 2px solid #000;
+    padding: 10px;
+    padding-bottom: 25px;
+    margin: 5px;
+    color: white;
+    line-height: 0.1em;
+}
+
+h4 {
+    text-transform: uppercase;
+}
+
+#dutch-white {
+    background-color: #F3E8D1;
+}
+
+#ash-grey {
+    background-color: #A0C1B9;
+}
+
+#moonstone {
+    background-color: #70A0AF;
+}
+
+#pomp-power {
+    background-color: #706993;
+}
+
+/* ----- Fonts div styling ----- */
+
+#fonts-div {
+    border: 2px solid #000;
+    margin: 50px;
+}
+
+#fonts-div h2 {
+    margin-bottom: 40px;
+}
+
+#fonts-div h4 {
+    text-decoration: underline;
+    line-height: 0.1em;
+    font-size: 16px;
+}
+
+#fonts-div p {
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+.font {
+    margin: 30px;
+}
+
+#thasadith {
+    font-family: 'Thasadith', sans-serif;
+}
+
+#carrois-gothic {
+    font-family: 'carrois-gothic', sans-serif;
+}
+
+#raleway {
+    font-family: 'raleway', sans-serif;
+}
+
+#pacifico {
+    font-family: 'pacifico', sans-serif;
+}
+
+#lexend {
+    font-family: 'lexend', sans-serif;
+}
+
+/* ----- Text Styles div styling ----- */
+
+#text-styles-div {
+    border: 2px solid #000;
+    margin: 50px;
+    padding: 30px;
+}
+
+#text-styles-div ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#text-styles-div ul::after {
+    content: "- - - - - - - - - - - - - - - - - -";
+
+}
+
+footer {
+    height: 60px;
+    background-color: grey;
+    padding: 20px;
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
